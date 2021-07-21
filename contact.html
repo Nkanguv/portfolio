@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+    <title>Contact Me</title>
 </head>
 <body>
     <header>
@@ -14,7 +14,7 @@
         
                     <nav class="bar">
                         <ul>
-                            <li class="list"><a href="3">Home</a></li>
+                            <li class="list"><a href="index.html">Home</a></li>
                             <li class="list"><a href="work.html">Design</a></li>
                             <li class="list"><a href="about.html">About</a></li>
                             <li class="list"><a href="contact.html">Contact</a></li>
@@ -24,14 +24,29 @@
         </div>
     </header>
     <main>
-        <div class="mid">
-            <p> Paintings</p>
-            <p> Murals</p>
-            <p> Spaces</p>
-            <p> Digital</p>
+        <div class="soft">
+            <a href="mailto:softvalentinho@gmail.com">softvalentinho@gmail.com</a>
+        </div>
+        <h2 class="con">
+            Please email me above or fill out the form below to request a
+            <br> quote for a project, inquire about a collaboration, or simply say
+            <br> hello. I’m also happy to refer you to someone else for a specific
+            <br> project need! I love to connect people.
+        </h2>
+        <div id="reg-form">
+            <form action="method">
+                <label for="First-Name">First Name</label>
+                <input type="text" name="first-name" placeholder="first name" required><br><br>
+                <label for="Last-Name">Last Name</label>
+                <input type="text" name="last-name" placeholder="last name" required><br><br>
+                <label for="Email">Email</label>
+                <input type="email" name="email" placeholder="email" required><br><br>
+                <label for="password">Message</label>
+                <textarea name="message" class="masssage" placeholder="leave a message" cols="20" rows="2"></textarea> <br>
+                <button type="submit">Send</button>
+            </form>
         </div>
     </main>
-
     <footer class="under">
         <div class="der">
             <div  class="down">
@@ -60,6 +75,5 @@
            </div>
 
     </footer>
-    
 </body>
 </html>
