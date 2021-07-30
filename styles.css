@@ -336,3 +336,267 @@ li{
     text-decoration: underline;
     color: rgb(128, 128, 247);
 }
+
+
+   /* contact page */
+
+   .contact-first{
+    padding-top: 100px;
+    height: 350px;
+    background-image: url(img/11.jpg);
+    background-size: 100% 400px;
+    padding-left: 100px;
+}
+
+.first-head{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.first-text{
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: rgb(35, 87, 87);
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.first-link{
+    padding-top: 20px;
+}
+.first-link a{
+    color: rgb(37, 188, 248);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.second-button{
+    
+    background-color: tomato;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3em;
+    margin-right: 30px 100px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.second-button:hover{
+    text-decoration: underline;
+    color: teal;
+}
+
+
+.second-button a{
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.second-text{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.5em;
+
+}
+
+.second{
+
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    align-items: center;
+    transform: translateY(-45px);
+}
+
+.second-one{
+    align-items: center;
+    text-align: center;
+    margin: 0 15px;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgb(228, 226, 226);
+    height: 350px;
+    width: 500px;
+    background: white;
+}
+
+.second-one img{
+    line-height: 3em;
+    width: 75px;
+    width: 75px;
+}
+
+.third{
+    height: 70vh;
+    /* width: 70%; */
+    margin: 0 175px;
+    
+}
+
+.third-head{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.third-one{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 60% 40%;
+    background-color: rgb(224, 245, 252);
+}
+
+.third-one-a{
+    width: 60%;
+}
+
+.third-one-b{
+    padding-top: 20px;
+    font-family: sans-serif;
+    width: 40%;
+}
+.third-one-b p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.para{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4em;
+}
+
+.fax{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.third-one-b h1{
+    font-size: 1.2rem;
+}
+
+.second-link a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    column-rule: rgb(31, 144, 250);
+}
+
+.second-link a:hover{
+    text-decoration: underline;
+    color: rgb(10, 12, 10);
+}
+
+.this{
+    font-family: sans-serif;
+    margin-top: 300px;
+    padding-left: 100px;
+    font-size: 2rem;
+}
+
+.that{
+    display: none;
+}
+
+.this p a{
+    color: rgb(148, 148, 243);
+    text-decoration: none;
+
+}
+
+.this p a:hover{
+    color: lightseagreen;
+    text-decoration: rgb(15, 32, 15) underline;
+}
+
+.pic{
+    width: 50%;
+}
+.pic-text{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.pic img{
+    height: 400px;
+    width: 100%;
+
+}
+
+.section{
+    background-color: rgb(208, 253, 245, 0.1);
+    padding: 10px 90px;
+    margin-top: 100px;
+}
+
+.address,
+.phone{
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 3em;
+}
+
+.area{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.are{
+    line-height: 2em;
+}
+
+.brace{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+}
+
+.numbers{
+    padding: 0 150px;
+    font-family: sans-serif;
+    color: rgb(24, 23, 23);
+    align-items: center;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.group{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.title{
+    padding: 10px;
+    text-align: center;
+}
+
+.number{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.country{
+    width: fit-content;
+    padding: 30px;
+}
+
+.group .number .country .name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
